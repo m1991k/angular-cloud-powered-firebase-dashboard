@@ -1,0 +1,27 @@
+1. install firebase utils:
+    npm i -g firebase-utils
+2. login 
+    firebase login
+
+3. list firebase projects
+    firebase projects:list
+
+4. install angularfire2 to integrate angular with firebase
+    npm install @angular/fire  firebase
+
+5. go to firebase and register app. grab the config values and update in environment file.
+        apiKey: 'AIzaSyA06IiNDqv42tFL0cfP5ogH8ChhzP0NHUI',
+        authDomain: 'grid-app-2cc0d.firebaseapp.com',
+        databaseURL: 'https://grid-app-2cc0d.firebaseio.com',
+        projectId: 'grid-app-2cc0d',
+        storageBucket: '',
+        messagingSenderId: '837702003711'
+
+
+6. import environment file in appmodules
+    import {environment} from '../environments/environment'
+
+
+7. add below in import section of appmodule
+    AngularFireModule.initializeApp(environment.firebase)
+

@@ -3,8 +3,30 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyA06IiNDqv42tFL0cfP5ogH8ChhzP0NHUI',
+    authDomain: 'grid-app-2cc0d.firebaseapp.com',
+    databaseURL: 'https://grid-app-2cc0d.firebaseio.com',
+    projectId: 'grid-app-2cc0d',
+    storageBucket: '',
+    messagingSenderId: '837702003711'
+  }
 };
+
+
+/*
+var firebaseConfig = {
+    apiKey: "AIzaSyA06IiNDqv42tFL0cfP5ogH8ChhzP0NHUI",
+    authDomain: "grid-app-2cc0d.firebaseapp.com",
+    databaseURL: "https://grid-app-2cc0d.firebaseio.com",
+    projectId: "grid-app-2cc0d",
+    storageBucket: "grid-app-2cc0d.appspot.com",
+    messagingSenderId: "837702003711",
+    appId: "1:837702003711:web:4db1449b111f4b749955ca",
+    measurementId: "G-70Q74FVPTY"
+  };
+*/
 
 /*
  * For easier debugging in development mode, you can import the following file
